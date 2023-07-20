@@ -61,7 +61,7 @@ public class JWTUtils {
                     .httpOnly(true);
 
             if (Arrays.asList(environment.getActiveProfiles()).contains("prod")) {
-                builder.domain(".wavods.com");
+                builder.domain(".unitechfourd.com");
             }
 
             return builder.build();
